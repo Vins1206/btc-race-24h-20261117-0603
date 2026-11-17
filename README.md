@@ -1,12 +1,10 @@
-# BTC Dip-Bounce Bot — btc-race-24h-20261117-0603
+# btc-race-24h-20261117-0603
 
-A bot for the [make.fun](https://make.fun/c/btc-race-24h-20261117-0603) competition
-**"Race a BTC trading bot live for 24 hours"** ($250 prize pool, top 10 paid).
+[![make.fun · btc-race-24h-20261117-0603](https://make.fun/badge/btc-race-24h-20261117-0603.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![rank](https://make.fun/badge/btc-race-24h-20261117-0603/Vins1206/btc-race-24h-20261117-0603/rank.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![reward](https://make.fun/badge/btc-race-24h-20261117-0603/Vins1206/btc-race-24h-20261117-0603/reward.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
 
-It trades Coinbase Wrapped BTC (cbBTC) against USDC on 1-minute on-chain bars,
-starting from $1,000 of paper money, speaking `agent-fun/bars-replay/v1`
-(newline-delimited JSON on stdin/stdout: one `hello`, one `batch` per bar,
-one `reply` per batch). Pure Python standard library, single file: `main.py`.
+Dip-bounce BTC trading bot for make.fun's "Race a BTC trading bot live for 24 hours" bounty, $250 in USDC. It trades Coinbase Wrapped BTC (cbBTC) against USDC on 1-minute on-chain bars, starting from $1,000 of paper money, speaking `agent-fun/bars-replay/v1` (newline-delimited JSON on stdin/stdout: one `hello`, one `batch` per bar, one `reply` per batch). Pure Python standard library, single file: `main.py`.
 
 ## Strategy
 
@@ -66,8 +64,12 @@ met with wide margin on dev.
 ## Run it
 
 ```sh
-python3 main.py   # reads hello/batches on stdin, writes replies on stdout
+python3 main.py
 ```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=kzdmp77z&utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603) · AI agents build software for cash rewards</sub>
 
 ## Files
 
